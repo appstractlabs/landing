@@ -1,0 +1,766 @@
+{
+  "metadata": {
+    "default": {
+      "title": "Appstract Labs - Agencia de Software",
+      "description": "Appstract Labs es una agencia global de software especializada en desarrollo a la medida. Creamos soluciones digitales modernas, escalables y de alta calidad para empresas en todo el mundo.",
+      "keywords": [
+        "Desarrollo de Software",
+        "Agencia Digital",
+        "Emprendedores",
+        "Aplicaciones Web",
+        "Appstract Labs",
+        "PYMES"
+      ]
+    },
+    "businessWeb": {
+      "title": "Appstract Labs - Sitios Web y Plataformas Empresariales",
+      "description": "Diseñamos y desarrollamos aplicaciones adaptadas a los procesos de tu negocio. Sin plantillas, sin límites predefinidos, solo software que encaja.",
+      "keywords": [
+        "Optimización SEO",
+        "Diseño Responsivo",
+        "Diseño UX/UI",
+        "Emprendedores",
+        "Software a Medida",
+        "Appstract Labs",
+        "PYMES"
+      ]
+    },
+    "customWeb": {
+      "title": "Appstract Labs - Aplicaciones Web Personalizadas",
+      "description": "Diseñamos y desarrollamos aplicaciones adaptadas a los procesos de tu negocio. Sin plantillas, sin límites predefinidos, solo software que encaja.",
+      "keywords": [
+        "Aplicaciones Web",
+        "Desarrollo Personalizado",
+        "Appstract Labs",
+        "PYMES",
+        "Tableros Personalizados"
+      ]
+    },
+    "mvp": {
+      "title": "Appstract Labs - Desarrollo de MVP",
+      "description": "¿Tienes una idea de producto? Lanzamos tu Producto Mínimo Viable de forma rápida y limpia, para que lo valides con usuarios e inversionistas reales.",
+      "keywords": [
+        "Prototipado Rápido",
+        "Desarrollo Personalizado",
+        "Appstract Labs",
+        "Pagos Seguros",
+        "Arquitectura Escalable",
+        "PYMES"
+      ]
+    }
+  },
+  "Routes": {
+    "custom_web_applications": "custom-web-applications",
+    "mvp_development": "mvp-development",
+    "business_websites_platforms": "business-websites-platforms",
+    "services": "services"
+  },
+  "Navbar": {
+    "heading": "Appstract",
+    "heading_highlighted": "Labs",
+    "cta": "Empezar",
+    "links": {
+      "home": "Inicio",
+      "about": "Sobre nosotros",
+      "services": "Servicios",
+      "contact": "Contacto"
+    }
+  },
+  "Hero": {
+    "badge": "Tecnologías modernas • Sin atajos",
+    "heading": "Construyendo Software Moderno",
+    "heading_highlighted": "Sin Atajos",
+    "subheading": "Ayudamos a emprendedores y pymes a crecer con soluciones digitales. Tecnología de vanguardia que se ajusta a tu presupuesto y escala con tu éxito.",
+    "cta": "Inicia tu proyecto",
+    "features": {
+      "modern_stack": {
+        "title": "Stack moderno",
+        "description": "Los frameworks y tecnologías más recientes para un rendimiento óptimo."
+      },
+      "fast_delivery": {
+        "title": "Entrega rápida",
+        "description": "Proceso de desarrollo eficiente sin comprometer la calidad."
+      },
+      "enterprise_grade": {
+        "title": "Nivel empresarial",
+        "description": "Soluciones escalables, seguras y mantenibles."
+      }
+    }
+  },
+  "Services": {
+    "heading": "Nuestros",
+    "heading_highlighted": "Servicios",
+    "subheading": "Estamos especializados en tres áreas principales, ofreciendo resultados excepcionales con tecnologías modernas.",
+    "cta": "Ver más",
+    "list": {
+      "custom_web_applications": {
+        "title": "Aplicaciones web a medida",
+        "description": "Diseñamos y construimos apps adaptadas a los procesos de tu negocio. Sin plantillas ni límites prefabricados: solo software que encaja.",
+        "features": [
+          "Flujos de trabajo personalizados",
+          "Paneles personalizados",
+          "Control de acceso por roles",
+          "Diseño UX/UI"
+        ]
+      },
+      "mvp_development": {
+        "title": "Desarrollo de MVP",
+        "description": "¿Tienes una idea de producto? Lanzamos tu Producto Mínimo Viable de forma rápida y limpia para validarlo con usuarios reales e inversores.",
+        "features": [
+          "Prototipado rápido",
+          "Pagos seguros",
+          "Implementación de funciones clave",
+          "Arquitectura escalable"
+        ]
+      },
+      "business_websites_platforms": {
+        "title": "Sitios web y plataformas empresariales",
+        "description": "Sitios modernos, rápidos y listos para SEO, con la flexibilidad de un backend a medida cuando sea necesario.",
+        "features": [
+          "Optimización SEO",
+          "Diseño responsivo",
+          "Soluciones backend personalizadas",
+          "Diseño UX/UI"
+        ]
+      }
+    }
+  },
+  "About": {
+    "heading": "Sobre",
+    "heading_highlighted": "Appstract Labs",
+    "subheading": "Somos un equipo de desarrolladores y diseñadores apasionados, comprometidos con crear software excepcional que marque la diferencia. Nuestro enfoque combina excelencia técnica con resolución creativa de problemas.",
+    "values": {
+      "innovation": {
+        "title": "Innovación primero",
+        "description": "Nos mantenemos a la vanguardia de las tendencias tecnológicas para ofrecer soluciones de última generación."
+      },
+      "quality": {
+        "title": "Calidad garantizada",
+        "description": "Mantenemos los más altos estándares en calidad de código, seguridad y rendimiento."
+      },
+      "client_centric": {
+        "title": "Centrados en el cliente",
+        "description": "Tu éxito es nuestro éxito. Construimos relaciones a largo plazo basadas en confianza y resultados."
+      },
+      "mission": {
+        "title": "Orientados a la misión",
+        "description": "Nos enfocamos en entregar soluciones que realmente resuelvan problemas de negocio y fomenten el crecimiento."
+      }
+    },
+    "team": {
+      "heading": "Conoce a nuestro equipo",
+      "subheading": "Nuestro equipo diverso reúne experiencia de diferentes áreas para ofrecer soluciones integrales.",
+      "members": {
+        "developer": {
+          "role": "Ingeniero de software",
+          "bio": "Más de 5 años en desarrollo full-stack. Experto en construir aplicaciones web escalables con tecnologías modernas."
+        },
+        "designer": {
+          "role": "Diseñador UI/UX",
+          "bio": "Apasionado por crear interfaces intuitivas y experiencias de usuario atractivas."
+        },
+        "support": {
+          "role": "Soporte",
+          "bio": "Dedicado a garantizar la satisfacción del cliente y a brindar soporte ágil en cada proyecto."
+        }
+      }
+    }
+  },
+  "Contact": {
+    "heading": "Ponte en",
+    "heading_highlighted": "Contacto",
+    "subheading": "¿Listo para comenzar tu próximo proyecto? Conversemos sobre cómo podemos ayudarte a dar vida a tus ideas.",
+    "info": {
+      "heading": "Comencemos una conversación",
+      "description": "Estamos aquí para ayudarte a transformar tus ideas en soluciones de software excepcionales. Contáctanos a través de cualquiera de los siguientes canales.",
+      "location": "Ubicación",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "country": "San Salvador, SV"
+    },
+    "formInfo": {
+      "title": "Envíanos un mensaje",
+      "name_label": "Tu nombre",
+      "email_label": "Tu correo",
+      "message_label": "Cuéntanos sobre tu proyecto...",
+      "submit_button": "Enviar mensaje"
+    },
+    "guarantee": {
+        "title": "Garantía de respuesta rápida",
+        "description": "Normalmente respondemos a todas las consultas en un plazo de 24 horas. Para proyectos urgentes, no dudes en llamarnos directamente."
+      }
+  },
+  "Footer": {
+    "brand": {
+      "heading": "Appstract",
+      "heading_highlighted": "Labs",
+      "tagline": "Construimos software moderno sin atajos. Creamos experiencias digitales excepcionales que impulsan el crecimiento y la innovación del negocio."
+    },
+    "bottom": {
+      "rights": "Appstract Labs. Todos los derechos reservados.",
+      "privacy_policy": "Política de privacidad",
+      "terms_of_service": "Términos de servicio",
+      "cookies_policy": "Política de cookies"
+    },
+    "category": {
+      "services": "Servicios",
+      "company": "Compañía"
+    }
+  },
+  "PrivacyPolicy": {
+    "trigger": "Política de privacidad",
+    "title": "Política de privacidad",
+    "intro": "Appstract Labs (“nosotros”) respeta tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestro sitio web, aplicaciones o servicios (colectivamente, los “Servicios”). Si no estás de acuerdo con los términos, deja de usar nuestros Servicios.",
+    "last_updated_label": "Última actualización:",
+    "sections": {
+      "1": {
+        "heading": "1. Información que recopilamos",
+        "a_title": "a. Información personal",
+        "a_items": ["Nombre", "Correo electrónico", "Datos de facturación (si aplica)", "Información de contacto"],
+        "b_title": "b. Información no personal",
+        "b_items": ["Tipo y versión del navegador", "Sistema operativo", "Dirección IP", "Datos de uso, como páginas visitadas y tiempo de permanencia"]
+      },
+      "2": {
+        "heading": "2. Cómo usamos tu información",
+        "items": [
+          "Proveer y mantener nuestros Servicios",
+          "Procesar pagos y facturas",
+          "Comunicarnos contigo sobre actualizaciones o soporte",
+          "Mejorar la funcionalidad del sitio y la experiencia de usuario",
+          "Garantizar la seguridad y la prevención de fraudes",
+          "Cumplir obligaciones legales"
+        ]
+      },
+      "3": {
+        "heading": "3. Cómo compartimos información",
+        "intro": "No vendemos ni alquilamos tu información personal. Podemos compartir datos solo en estos casos:",
+        "items": [
+          "Con proveedores de servicios de confianza que actúan en nuestro nombre (p. ej., hosting, procesamiento de pagos)",
+          "Para cumplir requisitos legales, órdenes judiciales o hacer cumplir nuestros acuerdos",
+          "En caso de fusión, adquisición o venta de activos de la empresa"
+        ]
+      },
+      "4": {
+        "heading": "4. Cookies y tecnologías de seguimiento",
+        "text": "Usamos cookies y tecnologías similares para mejorar la experiencia, analizar el tráfico y personalizar contenido. Puedes deshabilitar las cookies en la configuración del navegador, pero algunas funciones de los Servicios podrían no operar correctamente."
+      },
+      "5": {
+        "heading": "5. Conservación de datos",
+        "text": "Conservamos la información personal solo el tiempo necesario para los fines descritos en esta política, salvo que la ley exija un período mayor."
+      },
+      "6": {
+        "heading": "6. Seguridad de los datos",
+        "text": "Aplicamos medidas técnicas y organizativas adecuadas para proteger tu información. Sin embargo, ningún método de transmisión o almacenamiento es 100% seguro."
+      },
+      "7": {
+        "heading": "7. Tus derechos",
+        "intro": "Según tu ubicación, puedes tener derechos como:",
+        "items": [
+          "Acceder a la información personal que conservamos sobre ti",
+          "Solicitar la corrección o eliminación de tus datos",
+          "Oponerte o restringir el tratamiento de datos",
+          "Solicitar la portabilidad de datos"
+        ],
+        "contact": "Para ejercer estos derechos, contáctanos en: support@appstractlabs.com."
+      },
+      "8": {
+        "heading": "8. Transferencias internacionales de datos",
+        "text": "Si accedes a nuestros Servicios fuera de El Salvador 🇸🇻, tu información puede transferirse y procesarse en países con leyes de protección de datos diferentes."
+      },
+      "9": {
+        "heading": "9. Privacidad de menores",
+        "text": "Nuestros Servicios no están dirigidos a menores de 15 años (o la edad de consentimiento aplicable en tu jurisdicción). No recopilamos intencionalmente información personal de menores."
+      },
+      "10": {
+        "heading": "10. Enlaces de terceros",
+        "text": "Nuestros Servicios pueden contener enlaces a sitios externos. No somos responsables del contenido ni de las prácticas de privacidad de dichos sitios."
+      },
+      "11": {
+        "heading": "11. Cambios a esta política",
+        "text": "Podemos actualizar esta Política de Privacidad periódicamente. Cualquier cambio se publicará en esta página con la fecha de “Última actualización”."
+      },
+      "12": {
+        "heading": "12. Contáctanos",
+        "intro": "Si tienes preguntas sobre esta Política de Privacidad o sobre cómo tratamos tus datos, contáctanos en:",
+        "org": "Appstract Labs",
+        "email_label": "Correo:",
+        "email_value": "info@appstractlabs.com"
+      }
+    },
+    "close": "Cerrar"
+  },
+  "TermsService": {
+    "trigger": "Términos de servicio",
+    "title": "Términos de servicio",
+    "intro": "Bienvenido a Appstract Labs. Al acceder o usar nuestro sitio web, aplicaciones o servicios (colectivamente, los \"Servicios\"), aceptas quedar sujeto a estos Términos de servicio (\"Términos\"). Si no estás de acuerdo, no debes usar nuestros Servicios.",
+    "last_updated_label": "Última actualización:",
+    "sections": {
+      "1": {
+        "heading": "1. Uso de los Servicios",
+        "items": [
+          "Debes tener al menos 18 años o la mayoría de edad en tu jurisdicción para usar nuestros Servicios.",
+          "Aceptas usar los Servicios solo con fines legales y conforme a estos Términos.",
+          "Eres responsable de mantener la confidencialidad de las credenciales de tu cuenta."
+        ]
+      },
+      "2": {
+        "heading": "2. Propiedad intelectual",
+        "items": [
+          "Todo el contenido, marcas, logotipos y propiedad intelectual proporcionados a través de los Servicios son propiedad de Appstract Labs o se usan bajo licencia.",
+          "No puedes copiar, modificar, distribuir ni explotar ningún contenido sin nuestro consentimiento previo por escrito."
+        ]
+      },
+      "3": {
+        "heading": "3. Pagos y facturación",
+        "items": [
+          "Si compras Servicios, aceptas proporcionar información de facturación precisa y autorizarnos (o a nuestros procesadores de pago) a cargar tu medio de pago.",
+          "Las tarifas no son reembolsables salvo indicación en contrario."
+        ]
+      },
+      "4": {
+        "heading": "4. Actividades prohibidas",
+        "intro": "No puedes:",
+        "items": [
+          "Usar los Servicios con fines fraudulentos, abusivos o ilegales.",
+          "Intentar obtener acceso no autorizado a nuestros sistemas o redes.",
+          "Interferir con la seguridad o la funcionalidad de los Servicios."
+        ]
+      },
+      "5": {
+        "heading": "5. Servicios de terceros",
+        "text": "Nuestros Servicios pueden incluir enlaces o integraciones con servicios de terceros. No somos responsables del contenido, políticas o prácticas de terceros."
+      },
+      "6": {
+        "heading": "6. Descargos de responsabilidad",
+        "items": [
+          "Los Servicios se proporcionan \"tal cual\" y \"según disponibilidad\".",
+          "No ofrecemos garantías sobre exactitud, confiabilidad o disponibilidad."
+        ]
+      },
+      "7": {
+        "heading": "7. Limitación de responsabilidad",
+        "text": "En la máxima medida permitida por la ley, Appstract Labs no será responsable por daños indirectos, incidentales o consecuentes derivados del uso de los Servicios."
+      },
+      "8": {
+        "heading": "8. Indemnización",
+        "text": "Aceptas indemnizar y mantener indemne a Appstract Labs por reclamaciones, daños o gastos derivados de tu uso de los Servicios o del incumplimiento de estos Términos."
+      },
+      "9": {
+        "heading": "9. Terminación",
+        "text": "Podemos suspender o terminar tu acceso a los Servicios en cualquier momento, sin previo aviso, si creemos razonablemente que infringiste estos Términos."
+      },
+      "10": {
+        "heading": "10. Ley aplicable",
+        "text": "Estos Términos se rigen e interpretan conforme a las leyes de El Salvador, sin atender a sus principios sobre conflictos de leyes."
+      },
+      "11": {
+        "heading": "11. Cambios a los Términos",
+        "text": "Podemos actualizar estos Términos periódicamente. Si continúas usando los Servicios después de publicarse cambios, aceptas los Términos revisados."
+      },
+      "12": {
+        "heading": "12. Contáctanos",
+        "intro": "Si tienes preguntas sobre estos Términos, contáctanos en:",
+        "org": "Appstract Labs",
+        "email_label": "Correo:",
+        "email_value": "info@appstractlabs.com"
+      }
+    },
+    "close": "Cerrar"
+  },
+  "CookiesPolicy": {
+    "trigger": "Política de cookies",
+    "title": "Política de cookies",
+    "intro": "Usamos cookies y tecnologías similares para ejecutar el sitio, mejorar el rendimiento, analizar el tráfico y personalizar el contenido. Este aviso explica qué son las cookies, cuáles usamos y cómo puedes controlarlas.",
+    "last_updated_label": "Última actualización:",
+    "sections": {
+      "1": {
+        "heading": "1. ¿Qué son las cookies?",
+        "text": "Las cookies son pequeños archivos de texto que tu navegador almacena en tu dispositivo. Ayudan a los sitios web a recordar información sobre tu visita. También usamos tecnologías similares como almacenamiento local y píxeles. En esta política nos referimos a todas ellas como “cookies”."
+      },
+      "2": {
+        "heading": "2. Cómo usamos las cookies",
+        "highlighted_1": "Esenciales:",
+        "highlighted_2": "Preferencias:",
+        "highlighted_3": "Analíticas:",
+        "highlighted_4": "Marketing:",
+        "items": [
+          "Necesarias para que el sitio funcione (seguridad, balanceo de carga, gestión de sesiones).",
+          "Recuerdan elecciones como idioma o configuración de interfaz.",
+          "Entienden cómo los visitantes usan nuestro sitio para mejorar rendimiento y funciones.",
+          "Miden el rendimiento de campañas y, cuando aplica, personalizan contenido."
+        ]
+      },
+      "3": {
+        "heading": "3. Cookies que podemos establecer",
+        "highlighted_1": "_session:",
+        "highlighted_2": "consent_cookie:",
+        "highlighted_3": "_analytics_*:",
+        "items": [
+          "Mantiene tu inicio de sesión y el estado de la sesión. Esencial. Expira al finalizar la sesión o en un período corto.",
+          "Almacena tus preferencias de cookies. Esencial. Expira hasta en 12 meses.",
+          "Recopila métricas de uso agregadas (vistas de página, referencias). Analíticas. Expiración típica de 1 a 24 meses."
+        ]
+      },
+      "4": {
+        "heading": "4. Cookies de terceros",
+        "text": "Podemos usar herramientas y analíticas de terceros que establecen cookies cuando visitas nuestro sitio. Estos proveedores tienen sus propias políticas de privacidad y pueden procesar datos fuera de tu país. Ejemplos incluyen plataformas de analíticas y herramientas de monitoreo de rendimiento."
+      },
+      "5": {
+        "heading": "5. Tus opciones y controles",
+        "highlighted_1": "Banner de consentimiento:",
+        "highlighted_2": "Controles del navegador:",
+        "highlighted_3": "No rastrear:",
+        "items": [
+          "Puedes aceptar o rechazar cookies no esenciales al visitar el sitio por primera vez o revisando tus preferencias.",
+          "La mayoría de navegadores permiten bloquear o eliminar cookies. Bloquear algunas cookies puede afectar la funcionalidad del sitio.",
+          "Es posible que nuestro sitio no responda a señales DNT por falta de un estándar. Aun así puedes gestionar cookies con las opciones anteriores."
+        ]
+      },
+      "6": {
+        "heading": "6. Conservación de datos",
+        "text": "La duración de las cookies varía según el tipo y propósito. Conservamos los datos solo el tiempo necesario para el fin declarado o según lo requiera la ley."
+      },
+      "7": {
+        "heading": "7. Cambios a esta política de cookies",
+        "text": "Podemos actualizar este aviso para reflejar cambios en nuestras cookies o en requisitos legales. Publicaremos las actualizaciones aquí y revisaremos la fecha de “Última actualización”."
+      },
+      "8": {
+        "heading": "8. Contacto",
+        "text": "Si tienes preguntas sobre nuestro uso de cookies o tus opciones, contáctanos en info@appstractlabs.com."
+      }
+    },
+    "close": "Cerrar"
+  },
+  "Service_MVP": {
+    "header": {
+      "back": "Volver a Servicios"
+    },
+    "hero": {
+      "heading": "MVP",
+      "heading_highlighted": "Development",
+      "subheading": "Lanza tu idea de startup en semanas, no meses. Ayudamos a emprendedores a construir Productos Mínimos Viables que validan conceptos y atraen inversores.",
+      "cta": "Digitaliza tu negocio"
+    },
+    "features_section": {
+      "heading": "Solución",
+      "heading_highlighted": "Empresarial Completa",
+      "subheading": "Todas las herramientas que necesitas para modernizar tus operaciones"
+    },
+    "process": {
+      "heading": "Nuestro proceso de desarrollo de MVP"
+    },
+    "benefits": {
+      "heading": "Transforma tu negocio",
+      "card": {
+        "title": "¿Listo para ir a lo digital?",
+        "description": "Moderniza tu negocio con nuestras soluciones de Sitios y Plataformas Empresariales",
+        "cta": "Solicitar cotización"
+      }
+    }
+  },
+  "Service_CustomWeb": {
+    "header": {
+      "back": "Volver a Servicios"
+    },
+    "hero": {
+      "heading": "Aplicaciones web",
+      "heading_highlighted": "a medida",
+      "subheading": "Construye exactamente lo que tu negocio necesita. Nuestras aplicaciones web a medida resuelven desafíos únicos y escalan con tu crecimiento.",
+      "cta": "Digitaliza tu negocio"
+    },
+    "features_section": {
+      "heading": "Solución",
+      "heading_highlighted": "Empresarial Completa",
+      "subheading": "Todas las herramientas que necesitas para modernizar tus operaciones"
+    },
+    "process": {
+      "heading": "Nuestro proceso de desarrollo"
+    },
+    "benefits": {
+      "heading": "Transforma tu negocio",
+      "card": {
+        "title": "¿Listo para ir a lo digital?",
+        "description": "Moderniza tu negocio con nuestras soluciones de Sitios y Plataformas Empresariales",
+        "cta": "Solicitar cotización"
+      }
+    }
+  },
+  "Service_BusinessWeb": {
+    "header": {
+      "back": "Volver a Servicios"
+    },
+    "hero": {
+      "heading": "Sitios web empresariales",
+      "heading_highlighted": "y plataformas",
+      "subheading": "Sitios profesionales que convierten visitantes en clientes. Desde sitios corporativos hasta plataformas empresariales complejas que impulsan el crecimiento.",
+      "cta": "Digitaliza tu negocio"
+    },
+    "features_section": {
+      "heading": "Solución",
+      "heading_highlighted": "Empresarial Completa",
+      "subheading": "Todas las herramientas que necesitas para modernizar tus operaciones"
+    },
+    "types": {
+      "heading": "Tipos de sitios que construimos"
+    },
+    "benefits": {
+      "heading": "Transforma tu negocio",
+      "card": {
+        "title": "¿Listo para ir a lo digital?",
+        "description": "Moderniza tu negocio con nuestras soluciones de Sitios y Plataformas Empresariales",
+        "cta": "Solicitar cotización"
+      }
+    }
+  },
+  "Data": {
+    "services": {
+      "custom_web_applications": {
+        "title": "Aplicaciones web a medida",
+        "description": "Diseñamos y construimos apps adaptadas a los procesos de tu negocio. Sin plantillas ni límites prefabricados: solo software que encaja.",
+        "features": [
+          "Flujos de trabajo personalizados",
+          "Paneles personalizados",
+          "Control de acceso por roles",
+          "Integración con sistemas existentes"
+        ]
+      },
+      "mvp_development": {
+        "title": "Desarrollo de MVP",
+        "description": "¿Tienes una idea de producto? Lanzamos tu Producto Mínimo Viable de forma rápida y limpia para validarlo con usuarios reales e inversores.",
+        "features": [
+          "Prototipado rápido",
+          "Implementación de funciones clave",
+          "Integración de retroalimentación de usuarios",
+          "Arquitectura escalable"
+        ]
+      },
+      "business_websites_platforms": {
+        "title": "Sitios web y plataformas empresariales",
+        "description": "Sitios modernos, rápidos y listos para SEO, con la flexibilidad de un backend a medida cuando sea necesario.",
+        "features": [
+          "Optimización SEO",
+          "Diseño responsivo",
+          "Gestión de contenido",
+          "Soluciones backend personalizadas"
+        ]
+      }
+    },
+    "navItems": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "about": "Sobre nosotros",
+      "contact": "Contacto"
+    },
+    "values": {
+      "mission": {
+        "title": "Orientados a la misión",
+        "description": "Nos enfocamos en entregar soluciones que realmente resuelvan problemas de negocio y fomenten el crecimiento."
+      },
+      "innovation": {
+        "title": "Innovación primero",
+        "description": "Nos mantenemos a la vanguardia de las tendencias tecnológicas para ofrecer soluciones de última generación."
+      },
+      "client": {
+        "title": "Centrados en el cliente",
+        "description": "Tu éxito es nuestro éxito. Construimos relaciones a largo plazo basadas en confianza y resultados."
+      },
+      "quality": {
+        "title": "Calidad garantizada",
+        "description": "Mantenemos los más altos estándares en calidad de código, seguridad y rendimiento."
+      }
+    },
+    "team": {
+      "diego": {
+        "name": "Diego Pardo",
+        "role": "Ingeniero de software",
+        "bio": "Más de 5 años en desarrollo full-stack y arquitectura de sistemas."
+      },
+      "kathya": {
+        "name": "Kathya Pardo",
+        "role": "Diseñadora UX/UI",
+        "bio": "Experta en UI/UX especializada en aplicaciones modernas."
+      },
+      "marcelo": {
+        "name": "Marcelo Pardo",
+        "role": "Atención al cliente",
+        "bio": "Dedicado a garantizar la satisfacción del cliente y brindar soporte ágil en cada proyecto."
+      }
+    },
+    "footerLinks": {
+      "services": {
+        "custom_web_applications": "Aplicaciones web a medida",
+        "mvp_development": "Desarrollo de MVP",
+        "business_websites_platforms": "Sitios web y plataformas empresariales"
+      },
+      "company": {
+        "about": "Sobre nosotros",
+        "team": "Nuestro equipo",
+        "contact": "Contacto"
+      }
+    },
+    "features": {
+      "business_websites_platforms": {
+        "seo": {
+          "title": "Optimizado para SEO",
+          "description": "Construido para posicionarse en Google con una estructura y optimización adecuadas."
+        },
+        "responsive": {
+          "title": "Diseño responsivo",
+          "description": "Experiencia perfecta en todos los dispositivos: escritorio, tableta y móvil."
+        },
+        "fast": {
+          "title": "Ultrarrápido",
+          "description": "Optimizado para la velocidad con tecnologías modernas y buenas prácticas."
+        },
+        "secure": {
+          "title": "Seguro y confiable",
+          "description": "Incluye certificados SSL, cabeceras de seguridad y hosting confiable."
+        },
+        "analytics": {
+          "title": "Listo para analíticas",
+          "description": "Google Analytics y seguimiento de conversiones configurados desde el primer día."
+        },
+        "cms": {
+          "title": "Gestión de contenido",
+          "description": "CMS fácil de usar para actualizar contenido sin conocimientos técnicos."
+        }
+      },
+      "custom_web_applications": {
+        "performance": {
+          "title": "Alto rendimiento",
+          "description": "Construido con frameworks modernos y optimizado para velocidad y eficiencia."
+        },
+        "security": {
+          "title": "Seguridad empresarial",
+          "description": "Seguridad a nivel bancario con cifrado, autenticación y protección de datos."
+        },
+        "scalable": {
+          "title": "Arquitectura escalable",
+          "description": "Diseñada para manejar el crecimiento de cientos a millones de usuarios."
+        },
+        "design": {
+          "title": "Diseño centrado en el usuario",
+          "description": "Interfaces intuitivas que tu equipo y clientes disfrutarán usar."
+        },
+        "analytics": {
+          "title": "Integración de analíticas",
+          "description": "Reportes y analíticas integradas para rastrear rendimiento y comportamiento de usuarios."
+        },
+        "clean_code": {
+          "title": "Código limpio",
+          "description": "Código mantenible y bien documentado, fácil de actualizar y ampliar."
+        }
+      },
+      "mvp_development": {
+        "time": {
+          "title": "Tiempo de salida rápido",
+          "description": "Lleva tu producto a usuarios en 4-8 semanas en lugar de 6+ meses."
+        },
+        "cost": {
+          "title": "Rentable",
+          "description": "Valida tu idea con una inversión mínima antes de construir el producto completo."
+        },
+        "investor": {
+          "title": "Listo para inversores",
+          "description": "Demuestra tracción y validación de usuarios para atraer financiamiento."
+        },
+        "feedback": {
+          "title": "Retroalimentación de usuarios",
+          "description": "Aprende lo que los usuarios realmente quieren antes de invertir en desarrollo completo."
+        },
+        "risk": {
+          "title": "Reducción de riesgos",
+          "description": "Prueba tus supuestos y cambia de dirección rápidamente si es necesario."
+        },
+        "foundation": {
+          "title": "Base escalable",
+          "description": "Construido pensando en el crecimiento, listo para escalar cuando tú lo estés."
+        }
+      }
+    },
+    "benefits": {
+      "business_websites_platforms": [
+        "Cierra acuerdos más rápido",
+        "Aumenta tu visibilidad en línea",
+        "Impulsa la credibilidad de tu marca",
+        "Llega a más clientes en línea"
+      ],
+      "custom_web_applications": [
+        "Optimiza tus operaciones",
+        "Mejora la interacción con usuarios",
+        "Obtén información valiosa",
+        "Mantente por delante de la competencia"
+      ],
+      "mvp_development": [
+        "Valida tu idea de negocio",
+        "Atrae inversores con un prototipo funcional",
+        "Reduce costos y tiempo de desarrollo",
+        "Recoge retroalimentación de usuarios para futuras iteraciones"
+      ]
+    },
+    "workTypes": {
+      "business_websites_platforms": {
+        "corporate": {
+          "title": "Sitios corporativos",
+          "description": "Sitios profesionales que generan confianza y credibilidad.",
+          "features": ["Perfiles de empresa", "Páginas de servicios", "Formularios de contacto", "Secciones de equipo"]
+        },
+        "platforms": {
+          "title": "Plataformas empresariales",
+          "description": "Plataformas complejas con cuentas de usuario, paneles y integraciones.",
+          "features": ["Autenticación de usuarios", "Paneles de administración", "Integraciones API", "Flujos personalizados"]
+        },
+        "landing": {
+          "title": "Landing Pages",
+          "description": "Páginas de alta conversión diseñadas para captar leads y generar ventas.",
+          "features": ["Formularios de captación", "Preparadas para A/B testing", "Optimización de conversiones", "Integraciones de marketing"]
+        }
+      },
+      "custom_web_applications": {
+        "steps": [
+          { "step": "01", "title": "Descubrimiento", "description": "Analizamos las necesidades de tu negocio y los requisitos técnicos." },
+          { "step": "02", "title": "Diseño", "description": "Creamos wireframes y prototipos para tu aprobación." },
+          { "step": "03", "title": "Desarrollo", "description": "Construimos tu aplicación con tecnologías modernas." },
+          { "step": "04", "title": "Lanzamiento", "description": "Desplegamos, probamos y brindamos soporte continuo." }
+        ]
+      },
+      "mvp_development": {
+        "steps": [
+          { "step": "01", "title": "Ideación", "description": "Definimos las funciones principales y validamos la necesidad del mercado." },
+          { "step": "02", "title": "Prototipo", "description": "Creamos prototipos interactivos para pruebas de usuario." },
+          { "step": "03", "title": "Construcción", "description": "Desarrollamos la funcionalidad principal con tecnología moderna." },
+          { "step": "04", "title": "Lanzamiento", "description": "Desplegamos y comenzamos a recopilar retroalimentación de usuarios." }
+        ]
+      }
+    }
+  },
+  "notFound": {
+    "title": "Appstract Labs",
+    "description": "Construyendo software moderno sin atajos",
+    "404": {
+      "heading": "404",
+      "subheading": "Página no encontrada",
+      "description": "La página que buscas no existe o ha sido movida. Vamos a llevarte de vuelta al camino correcto.",
+      "home": "Ir al inicio",
+      "services": "Ver servicios",
+      "back": "Regresar",
+      "help": "¿Necesitas ayuda? Contáctanos:",
+      "contact": "Contáctanos"
+    }
+  },
+  "CookiesConsent": {
+    "title": "Usamos cookies",
+    "description": "Usamos cookies para mejorar tu experiencia de navegación, analizar el tráfico del sitio y personalizar el contenido. Al hacer clic en \"Aceptar\", consientes el uso de cookies.",
+    "accept": "Aceptar cookies",
+    "reject": "Rechazar",
+    "footer": "Puedes cambiar tus preferencias en cualquier momento en nuestra política de privacidad."
+  },
+  "Validation": {
+    "name_required": "Tu nombre es obligatorio",
+    "email_invalid": "Correo electrónico no válido",
+    "message_min": "El mensaje debe tener al menos 10 caracteres"
+  },
+  "Success": {
+    "title": "Hemos recibido tu mensaje, nos comunicaremos contigo pronto."
+  }
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { usePathname } from "next/navigation";
 import { Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -37,12 +37,12 @@ export default function Footer() {
                             </div>
 
                             <div className="flex space-x-4">
-                                <Link href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
+                                <a href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
                                     <Image src="/github_dark.svg" alt="GitHub" className="size-7" width={1024} height={1024}/>
-                                </Link>
-                                <Link href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
+                                </a>
+                                <a href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
                                     <Mail className="size-7" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
                                                     </a>
                                                 ) : (
                                                     <Link
-                                                        href={{ pathname: link.href }}
+                                                        href={{ pathname: "/services/[slug]", params: { slug: link.href} }}
                                                         className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
                                                     >
                                                         {link.name}

@@ -50,9 +50,9 @@
     }
   },
   "Routes": {
-    "custom_web_applications": "custom-web-applications",
-    "mvp_development": "mvp-development",
-    "business_websites_platforms": "business-websites-platforms",
+    "custom_web_applications": "aplicaciones-web-personalizadas",
+    "mvp_development": "desarrollo-mvp",
+    "business_websites_platforms": "sitios-web-plataformas",
     "services": "services"
   },
   "Navbar": {

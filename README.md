@@ -43,7 +43,6 @@ The landing showcases our services, values, and provides an entry point for pote
 ---
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
 ```plaintext
 landing/

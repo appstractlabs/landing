@@ -30,7 +30,7 @@ export default function ContactForm() {
                 <CardTitle className="text-2xl text-card-foreground font-poppins">{ t("formInfo.title") }</CardTitle>
             </CardHeader>
             <CardContent>
-                <form action={dispatch} className="space-y-6">
+                <form action={dispatch} className="space-y-6" noValidate>
                     { state.errors && state.errors.map((error, index) => <ErrorMessage key={index}>{error}</ErrorMessage>)  }
                     <div>
                         <Input

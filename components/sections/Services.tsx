@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { getServices } from "@/content/data";
+import { test } from '@playwright/test';
 
 export default function Services() {
     const t = useTranslations();
@@ -21,7 +22,7 @@ export default function Services() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-test-id="services">
                     {services.map((service, index) => (
                         <Card
                             key={index}

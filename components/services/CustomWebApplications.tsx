@@ -111,7 +111,7 @@ export default function CustomWebApplicationsPage() {
                                 ))}
                             </div>
                         </div>
-                        <Card className="bg-card border-border">
+                        <Card className="bg-card border-border" data-test-id="contact-cta">
                             <CardHeader>
                                 <CardTitle className="text-card-foreground font-poppins">{ t("Service_CustomWeb.benefits.card.title") }</CardTitle>
                                 <CardDescription className="text-muted-foreground">

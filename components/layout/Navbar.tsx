@@ -20,7 +20,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     <Link href={"/"} className="flex items-center space-x-2">
                         <div className="hidden size-8 rounded-lg sm:flex items-center justify-center">
-                            <Image src="/logos/appstract-icon-white-transparent-48x48.svg" alt="Appstract Labs" width={48} height={48}/>
+                            <Image src="https://res.cloudinary.com/dmy3s8j5w/image/upload/v1757141556/appstract-icon-white-transparent-48x48_qkchcv.svg" alt="Appstract Labs" width={48} height={48}/>
                         </div>
                                 
                         <h3 className="text-3xl font-bold text-foreground whitespace-nowrap">{ t("Navbar.heading") } <span className="text-primary">{ t("Navbar.heading_highlighted") }</span></h3>

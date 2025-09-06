@@ -63,11 +63,11 @@ jobs:
         cache: 'npm'
       
     - name: Install deps
-      uses: npm ci
+      run: npm ci
     
     #Frontend Build
     - name: Build Frontend
-      uses: npm run build
+      run: npm run build
     
     #Save build artifacts
     - name: Upload build artifacts

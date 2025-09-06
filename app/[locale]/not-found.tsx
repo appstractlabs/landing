@@ -20,7 +20,7 @@ export default function NotFound() {
                         <h2 className="text-6xl font-bold text-primary font-poppins">404</h2>
                         <h3 className="text-2xl font-semibold text-foreground font-poppins">Page Not Found</h3>
                         <p className="text-muted-foreground text-balance">
-                        The page you're looking for doesn't exist or has been moved. Let's get you back on track.
+                        The page you&apos;re looking for doesn&apos;t exist or has been moved. Let&apos;s get you back on track.
                         </p>
                     </div>
 

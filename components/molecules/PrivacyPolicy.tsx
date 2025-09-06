@@ -12,7 +12,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { formatDate } from "@/lib/dates";
+import { useFormatDate } from "@/lib/dates";
 
 export default function PrivacyPolicy() {
     const t = useTranslations("PrivacyPolicy");
@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
                     </DialogDescription>
                 </DialogHeader>
                 <div className="space-y-4 text-sm text-white">
-                    <p><strong>{ t("last_updated_label") }</strong> { formatDate() }</p>
+                    <p><strong>{ t("last_updated_label") }</strong> { useFormatDate() }</p>
 
                     <h3 className="font-semibold">{ t("sections.1.heading") }</h3>
                     <p><strong>{ t("sections.1.a_title") }</strong></p>

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
-import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 import { Toaster } from "sonner";
 
 import "./globals.css";

@@ -55,5 +55,5 @@ export default function ContactInformation() {
                 </CardContent>
             </Card>
         </div>
-    )
+    );
 }

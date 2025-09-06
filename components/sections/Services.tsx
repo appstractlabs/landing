@@ -29,7 +29,7 @@ export default function Services() {
                         >
                             <CardHeader>
                                 <div
-                                    className={`size-12 rounded-lg bg-background flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
+                                    className={"size-12 rounded-lg bg-background flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300"}
                                 >
                                     <service.icon className={`size-8 ${service.color}`} />
                                 </div>
@@ -61,5 +61,5 @@ export default function Services() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

@@ -32,5 +32,5 @@ export default function FeatureIcons() {
                 <p className="text-muted-foreground text-sm">{ t("features.enterprise_grade.description") }</p>
             </div>
         </div>
-    )
+    );
 }

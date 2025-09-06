@@ -126,5 +126,5 @@ export default function MvpDevelopmentPage() {
                 </div>
             </section>
         </>
-    )
+    );
 }

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import { Cookie } from "lucide-react";
@@ -10,23 +10,23 @@ export default function CookieConsent() {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        const cookieConsent = localStorage.getItem("cookie-consent")
+        const cookieConsent = localStorage.getItem("cookie-consent");
         if (!cookieConsent) {
-            setIsVisible(true)
+            setIsVisible(true);
         }
-    }, [])
+    }, []);
 
     const handleAccept = () => {
-        localStorage.setItem("cookie-consent", "accepted")
-        setIsVisible(false)
-    }
+        localStorage.setItem("cookie-consent", "accepted");
+        setIsVisible(false);
+    };
 
     const handleReject = () => {
-        localStorage.setItem("cookie-consent", "rejected")
-        setIsVisible(false)
-    }
+        localStorage.setItem("cookie-consent", "rejected");
+        setIsVisible(false);
+    };
 
-    if (!isVisible) return null
+    if (!isVisible) return null;
 
     return (
         <div className="fixed inset-0 z-50 flex items-end justify-center p-4 sm:items-center">
@@ -64,5 +64,5 @@ export default function CookieConsent() {
                 </div>
             </div>
         </div>
-    )
+    );
 }

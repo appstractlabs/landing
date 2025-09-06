@@ -97,5 +97,5 @@ export default function PrivacyPolicy() {
                 </DialogFooter>
             </DialogContent>
         </Dialog>
-    )
+    );
 }

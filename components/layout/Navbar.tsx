@@ -72,7 +72,7 @@ export default function Navbar() {
                             ))}
                             <div className="flex items-center justify-between pt-2 border-t border-border">
                                 <LanguageSwitcher />
-                                <Link href={{ pathname: "/", hash: "contact" }} className="bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer">{ t("Navbar.cta") }</Link>
+                                <Link href={{ pathname: "/", hash: "contact" }} className="bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer py-2 px-5 rounded-lg whitespace-nowrap text-sm">{ t("Navbar.cta") }</Link>
                             </div>
                         </div>
                     </div>

@@ -101,7 +101,7 @@ export default function PrivacyPolicy() {
                     <p>{ t("sections.12.intro") }</p>
                     <p>
                         <strong>{ t("sections.12.org") }</strong><br />
-                        Email: <strong>{ t("sections.12.email_label") }</strong><br />
+                        { t("sections.12.email_label") } <strong>{ t("sections.12.email_value") }</strong><br />
                     </p>
                 </div>
                 <DialogFooter>

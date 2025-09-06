@@ -22,7 +22,10 @@ export default function ContactForm() {
     const [state, dispatch, pending] = useActionState(sendEmailAction, initialState);
 
     useEffect(() => {
-        if (state.success) toast.success(state.success);
+        if (state.success) {
+            toast.success(state.success);
+            state.success = '';
+        }
     }, [state.success]);
     
     return (

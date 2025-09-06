@@ -39,8 +39,8 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html lang={locale} className="scroll-smooth hide-scrollbar">
       <head>
-        <link rel="icon" href="/logos/appstract-icon-white-transparent-256x256.png" media="(prefers-color-scheme: dark)" />
-        <link rel="icon" href="/logos/appstract-icon-black-transparent-256x256.png" media="(prefers-color-scheme: light)" />
+        <link rel="icon" href="https://res.cloudinary.com/dmy3s8j5w/image/upload/v1757141556/appstract-icon-white-transparent-256x256_xzhe6q.png" media="(prefers-color-scheme: dark)" />
+        <link rel="icon" href="https://res.cloudinary.com/dmy3s8j5w/image/upload/v1757141550/appstract-icon-black-transparent-256x256_roqrbu.png" media="(prefers-color-scheme: light)" />
       </head>
       <body className={`antialiased ${inter.variable} ${poppins.variable} scroll-smooth`}>
         <NextIntlClientProvider>

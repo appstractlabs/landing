@@ -1,5 +1,4 @@
-import { test, expect, type Page } from "@playwright/test";
-import { beforeEach } from "node:test";
+import { test, expect } from "@playwright/test";
 
 test.describe("Not Found Page", () => {
     test.beforeEach(async ({ page }) => {

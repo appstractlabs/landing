@@ -1,10 +1,9 @@
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { getServices } from "@/content/data";
-import { test } from '@playwright/test';
 
 export default function Services() {
     const t = useTranslations();

@@ -1,6 +1,6 @@
 import { useFormatter } from "next-intl";
 
-export const formatDate = () => {
+export const useFormatDate = () => {
     const format = useFormatter();
     const lastUpdated = new Date(2025, 8, 2);
 

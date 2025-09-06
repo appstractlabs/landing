@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { sendEmailAction } from "@/actions/send-email-action";
 import ErrorMessage from "@/components/atoms/ErrorMessage";
+import Spinner from "@/components/atoms/Spinner";
 
 const initialState = {
     errors: [],
@@ -18,7 +19,7 @@ const initialState = {
 
 export default function ContactForm() {
     const t = useTranslations("Contact");
-    const [state, dispatch] = useActionState(sendEmailAction, initialState);
+    const [state, dispatch, pending] = useActionState(sendEmailAction, initialState);
 
     useEffect(() => {
         if (state.success) toast.success(state.success);
@@ -59,6 +60,7 @@ export default function ContactForm() {
                         />
                     </div>
                     <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer">
+                        { pending && <Spinner loading={true} size={8} color="white" /> }
                         { t("formInfo.submit_button") }
                         <PaperAirplaneIcon className="ml-2 size-4" />
                     </Button>

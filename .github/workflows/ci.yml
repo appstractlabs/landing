@@ -14,40 +14,40 @@ env:
 
 # Jobs to execute
 jobs:
-  #test:
-    #name: Run Tests
-    #runs-on: ubuntu-latest
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
 
-    #steps:
-    #Download source code from the repo
-    #- name: Checkout code
-      #uses: actions/checkout@v4
+    steps:
+    # Download source code from the repo
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-    #- name: Setup Node.js
-      #uses: actions/setup-node@v4
-      #with:
-        #node-version: ${{ env.NODE_VERSION }}
-        #cache: 'npm'
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
     
-    #Install deps
-    #- name: Install dependencies
-      #run: npm ci
+    # Install deps
+    - name: Install dependencies
+      run: npm ci
 
-    #- name: Install Playwright browsers
-      #run: npx playwright install --with-deps
+    - name: Install Playwright browsers
+      run: npx playwright install --with-deps
 
-    #Execute linter
-    #- name: Run Linting
-      #run: npm run lint
-      #continue-on-error: false
+    # Execute linter
+    - name: Run Linting
+      run: npm run lint
+      continue-on-error: false
     
-    #- name: Run tests
-      #run: npm test
+    - name: Run tests
+      run: npm test
 
-    #Generate test coverage
-    #- name: Generate coverage report
-      #run: npm run test:coverage
-      #continue-on-error: true
+    # Generate test coverage
+    - name: Generate coverage report
+      run: npm run test:coverage
+      continue-on-error: true
 
   #Build (executes after tests)
   build:

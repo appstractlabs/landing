@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useActionState, useEffect } from "react";
+import { useActionState, useEffect, useRef } from "react";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
@@ -14,19 +14,20 @@ import Spinner from "@/components/atoms/Spinner";
 
 const initialState = {
     errors: [],
-    success: '',
-}
+    success: "",
+};
 
 export default function ContactForm() {
     const t = useTranslations("Contact");
     const [state, dispatch, pending] = useActionState(sendEmailAction, initialState);
+    const prevStateRef = useRef(state);
 
     useEffect(() => {
-        if (state.success) {
+        if (state.success && state !== prevStateRef.current) {
             toast.success(state.success);
-            state.success = '';
         }
-    }, [state.success]);
+        prevStateRef.current = state;
+    }, [state]);
     
     return (
         <Card className="bg-card border-border font-inter">
@@ -70,5 +71,5 @@ export default function ContactForm() {
                 </form>
             </CardContent>
         </Card>
-    )
+    );
 }

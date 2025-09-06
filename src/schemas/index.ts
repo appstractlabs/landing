@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { getTranslations } from 'next-intl/server';
+import { getTranslations } from "next-intl/server";
 
 export async function contactFormSchema() {
     const t = await getTranslations("Validation");

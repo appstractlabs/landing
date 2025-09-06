@@ -10,4 +10,4 @@ export const useFormatDate = () => {
         day: "numeric",
         timeZone: "America/El_Salvador"
     });
-}
+};

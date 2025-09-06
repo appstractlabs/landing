@@ -126,5 +126,5 @@ export default function CustomWebApplicationsPage() {
                 </div>
             </section>
         </>
-    )
+    );
 }

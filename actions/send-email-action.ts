@@ -1,7 +1,7 @@
 "use server";
 
-import { contactFormSchema, errorSchema, successSchema } from '@/src/schemas/index';
-import { getTranslations } from 'next-intl/server';
+import { contactFormSchema, errorSchema, successSchema } from "@/src/schemas/index";
+import { getTranslations } from "next-intl/server";
 
 type prevStateType = {
     errors: string[],
@@ -15,7 +15,7 @@ export async function sendEmailAction(prevState: prevStateType, formData: FormDa
         name: formData.get("name"),
         email: formData.get("email"),
         message: formData.get("message")
-    }
+    };
 
     const schema = await contactFormSchema();
     const email = schema.safeParse(emailFormData);
@@ -24,8 +24,8 @@ export async function sendEmailAction(prevState: prevStateType, formData: FormDa
         const errors = email.error.issues.map(issue => issue.message);
         return {
             errors,
-            success: ''
-        }
+            success: ""
+        };
     }
 
     const url = `${process.env.API_URL}/api/send-email`;
@@ -44,8 +44,8 @@ export async function sendEmailAction(prevState: prevStateType, formData: FormDa
         const { error } = errorSchema.parse(json);
         return {
             errors: [error],
-            success: ''
-        }
+            success: ""
+        };
     }
 
     const success = successSchema.parse(t("title"));
@@ -53,5 +53,5 @@ export async function sendEmailAction(prevState: prevStateType, formData: FormDa
     return {
         errors: [],
         success
-    }
+    };
 }

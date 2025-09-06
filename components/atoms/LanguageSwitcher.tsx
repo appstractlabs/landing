@@ -19,5 +19,5 @@ export default function LanguageSwitcher() {
                 </Link>
             </Button>
         </div>
-    )
+    );
 }

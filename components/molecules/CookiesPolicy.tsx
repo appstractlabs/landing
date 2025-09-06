@@ -76,5 +76,5 @@ export default function Cookies() {
                 </DialogFooter>
             </DialogContent>
         </Dialog>
-    )
+    );
 }

@@ -135,5 +135,5 @@ export default function BusinessWebsitesPlatforms() {
                 </div>
             </section>
         </>
-    )
+    );
 }

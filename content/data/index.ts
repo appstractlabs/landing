@@ -100,22 +100,19 @@ export const getValues = (t: T) => [
 /** TEAM */
 export const getTeam = (t: T) => [
   {
-    name: "Diego Pardo",
-    role: t("About.team.members.developer.role"),
+    role: t("About.team.areas.software_development.role"),
     image: "/developer_avatar.svg",
-    bio: t("About.team.members.developer.bio")
+    bio: t("About.team.areas.software_development.bio")
   },
   {
-    name: "Kathya Pardo",
-    role: t("About.team.members.designer.role"),
+    role: t("About.team.areas.ux_ui_design.role"),
     image: "/designer_avatar.svg",
-    bio: t("About.team.members.designer.bio")
+    bio: t("About.team.areas.ux_ui_design.bio")
   },
   {
-    name: "Marcelo Pardo",
-    role: t("About.team.members.support.role"),
+    role: t("About.team.areas.support_service.role"),
     image: "/support_avatar.svg",
-    bio: t("About.team.members.support.bio")
+    bio: t("About.team.areas.support_service.bio")
   }
 ];
 

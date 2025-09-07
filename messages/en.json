@@ -150,18 +150,18 @@
     "team": {
       "heading": "Meet Our Team",
       "subheading": "Our diverse team brings together expertise from different domains to deliver comprehensive solutions.",
-      "members": {
-        "developer": {
-          "role": "Software Engineer",
-          "bio": "5+ years in full-stack development.Expert in building scalable web applications using modern technologies."
+      "areas": {
+        "software_development": {
+          "role": "Software Development Team",
+          "bio": "We build custom web apps and MVPs using modern technologies."
         },
-        "designer": {
-          "role": "UI/UX Designer",
-          "bio": "Passionate about creating intuitive interfaces and delightful user experiences."
+        "ux_ui_design": {
+          "role": "UX/UI Design Team",
+          "bio": "We design intuitive, user-friendly interfaces for web platforms."
         },
-        "support": {
-          "role": "Support",
-          "bio": "Dedicated to ensuring client satisfaction and providing responsive support throughout every project."
+        "support_service": {
+          "role": "Support Team",
+          "bio": "We support you and resolve any questions you may have throughout the project."
         }
       }
     }

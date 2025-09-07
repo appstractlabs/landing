@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Not Found Page", () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto("http://localhost:3000/en/unknown");
+        await page.goto("https://appstractlabs.com/en/unknown");
     });
 
     test("should display 404 heading", async ({ page }) => {
@@ -14,12 +14,12 @@ test.describe("Not Found Page", () => {
 
     test("should click 'Go Home' button and navigate to home page", async ({ page }) => {
         await page.getByRole("link", { name: "Go Home", exact: true }).click();
-        await expect(page).toHaveURL("http://localhost:3000/en");
+        await expect(page).toHaveURL("https://appstractlabs.com/en");
     });
 
     test("should click 'View Services' button and navigate to services section", async ({ page }) => {
         await page.getByRole("link", { name: "View Services", exact: true }).click();
-        await expect(page).toHaveURL("http://localhost:3000/en#services");
+        await expect(page).toHaveURL("https://appstractlabs.com/en#services");
     });
 
     test("email link should have correct href", async ({ page }) => {

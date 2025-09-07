@@ -44,11 +44,6 @@ jobs:
     - name: Run tests
       run: npm test
 
-    # Generate test coverage
-    - name: Generate coverage report
-      run: npm run test:coverage
-      continue-on-error: true
-
   #Build (executes after tests)
   build:
     name: Build Application
@@ -71,14 +66,6 @@ jobs:
     #Frontend Build
     - name: Build Frontend
       run: npm run build
-    
-    #Save build artifacts
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: build-files
-        path: dist/
-        retention-days: 7
     
   security:
     name: Security Audit

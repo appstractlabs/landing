@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Contact Section", () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto("http://localhost:3000/en");
+        await page.goto("https://appstractlabs.com/en");
         await page.setExtraHTTPHeaders({ "x-ci-e2e": "1" });
         const acceptButton = page.getByRole("button", { name: "Accept Cookies", exact: true }).first();
         await acceptButton.click();

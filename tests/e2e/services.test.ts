@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Services Section", () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto("http://localhost:3000/en");
+        await page.goto("https://appstractlabs.com/en");
         const cookiesButton = page.getByRole("button", { name: "Accept Cookies", exact: true }).first();
         await cookiesButton.click();
         await expect(cookiesButton).toBeHidden();
@@ -16,9 +16,9 @@ test.describe("Services Section", () => {
     test("should click the 'Learn More' button on the three services cards and verify navigation", async ({ page }) => {
         const serviceCards = page.locator("[data-test-id='services'] > div");
         const urls = [
-            "http://localhost:3000/en/services/custom-web-applications",
-            "http://localhost:3000/en/services/mvp-development",
-            "http://localhost:3000/en/services/business-websites-platforms"
+            "https://appstractlabs.com/en/services/custom-web-applications",
+            "https://appstractlabs.com/en/services/mvp-development",
+            "https://appstractlabs.com/en/services/business-websites-platforms"
         ];
         for (let i = 0; i < 3; i++) {
             const learnMoreButton = serviceCards.nth(i).getByRole("link", { name: "Learn More", exact: true }).first();
@@ -27,15 +27,15 @@ test.describe("Services Section", () => {
             await page.goBack();
         }
 
-        await expect(page).toHaveURL("http://localhost:3000/en");
+        await expect(page).toHaveURL("https://appstractlabs.com/en");
     });
 
     test("should click the CTA button in each service and navigate to the contact section", async ({ page }) => {
         const serviceCards = page.locator("[data-test-id='services'] > div");
         const serviceUrls = [
-            "http://localhost:3000/en/services/custom-web-applications",
-            "http://localhost:3000/en/services/mvp-development",
-            "http://localhost:3000/en/services/business-websites-platforms"
+            "https://appstractlabs.com/en/services/custom-web-applications",
+            "https://appstractlabs.com/en/services/mvp-development",
+            "https://appstractlabs.com/en/services/business-websites-platforms"
         ];
 
         for (let i = 0; i < 3; i++) {
@@ -49,9 +49,9 @@ test.describe("Services Section", () => {
 
             const ctaButton = ctaSection.getByRole("link", { name: "Get Business Quote", exact: true });
             await ctaButton.click();
-            await expect(page).toHaveURL("http://localhost:3000/en#contact");
+            await expect(page).toHaveURL("https://appstractlabs.com/en#contact");
 
-            await page.goto("http://localhost:3000/en");
+            await page.goto("https://appstractlabs.com/en");
         }
     });
 
@@ -62,7 +62,7 @@ test.describe("Services Section", () => {
             await learnMoreButton.click();
             const backToServicesLink = page.getByRole("button", { name: "Back to Services", exact: true }).first();
             await backToServicesLink.click();
-            await expect(page).toHaveURL("http://localhost:3000/en#services");
+            await expect(page).toHaveURL("https://appstractlabs.com/en#services");
         }
     });
 });

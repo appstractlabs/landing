@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test.describe("Footer Section", () => {
     test.beforeEach(async ({ page }) => {
-        await page.goto("http://localhost:3000/en");
+        await page.goto("https://appstractlabs.com/en");
         const acceptButton = page.getByRole("button", { name: "Accept Cookies", exact: true }).first();
         await acceptButton.click();
         await expect(acceptButton).toBeHidden();

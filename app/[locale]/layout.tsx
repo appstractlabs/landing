@@ -8,7 +8,6 @@ import { Toaster } from "sonner";
 
 import "./globals.css";
 
-
 export async function generateMetadata({ params }: { params: Promise<{locale: string}> }): Promise<Metadata> {
   const {locale} = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
@@ -21,8 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{locale: st
   };
 }
 
-export const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-export const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "500", "700", "800", "900"], variable: "--font-poppins" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "500", "700", "800", "900"], variable: "--font-poppins" });
 
 type Props = {
   children: React.ReactNode;

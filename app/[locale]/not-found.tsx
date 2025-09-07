@@ -9,7 +9,7 @@ export default function NotFound() {
         <div className="min-h-screen bg-background flex items-center justify-center px-4 font-inter">
             <div className="max-w-md w-full text-center space-y-8">
                 <div className="space-y-2">
-                    <Link href="/" className="inline-block">
+                    <Link href="/" className="inline-block" aria-label="Appstract Labs Home">
                         <h1 className="text-4xl font-bold text-foreground font-poppins">Appstract <span className="bg-gradient-to-r from-primary to-violet-500 text-transparent bg-clip-text">Labs</span></h1>
                     </Link>
                     <p className="text-md text-muted-foreground">Building modern software without shortcuts</p>
@@ -26,13 +26,13 @@ export default function NotFound() {
 
                     <div className="flex flex-col sm:flex-row gap-3 justify-center">
                         <Button asChild className="w-full sm:w-auto">
-                            <Link href="/" className="flex items-center gap-2">
+                            <Link href="/" aria-label="Go Home" className="flex items-center gap-2">
                                 <HomeIcon className="size-4" />
                                 Go Home
                             </Link>
                         </Button>
                         <Button variant="outline" asChild className="w-full sm:w-auto bg-transparent">
-                            <Link href={{ pathname: "/", hash: "services" }} className="flex items-center gap-2">
+                            <Link href={{ pathname: "/", hash: "services" }} aria-label="View Services" className="flex items-center gap-2">
                                 <MagnifyingGlassIcon className="size-4" />
                                 View Services
                             </Link>
@@ -42,6 +42,7 @@ export default function NotFound() {
                     <div className="pt-4">
                         <Link
                             href={"/"}
+                            aria-label="Go Back"
                             className="text-muted-foreground hover:text-foreground flex items-center justify-center"
                         >
                         <ArrowLeftIcon className="size-4 mr-2" />
@@ -55,6 +56,7 @@ export default function NotFound() {
                     <div className="text-sm">
                         <a
                             href="mailto:info@appstractlabs.com"
+                            aria-label="Send email to info@appstractlabs.com"
                             className="text-muted-foreground hover:text-foreground transition-colors block"
                         >
                             info@appstractlabs.com

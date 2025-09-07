@@ -39,8 +39,8 @@ export default function Services() {
                             <CardContent>
                                 <ul className="space-y-2 mb-6">
                                     {service.features.map((feature, featureIndex) => (
-                                        <li key={featureIndex} className="flex items-center text-sm md:text-md text-muted-foreground">
-                                            <div className="size-1.5 bg-primary rounded-full mr-3" />
+                                        <li key={featureIndex} className="flex items-center text-sm md:text-md text-foregoround">
+                                            <div className="size-1.5 bg-primary/80 rounded-full mr-3" />
                                             {feature}
                                         </li>
                                     ))}
@@ -48,9 +48,10 @@ export default function Services() {
                                 <Button
                                     asChild
                                     variant="outline"
+                                    aria-label="View Service Details"
                                     className="w-full border-border hover:bg-background group bg-transparent"
                                 >
-                                    <Link href={{ pathname: "/services/[slug]", params: { slug: service.slug } }}>
+                                    <Link href={{ pathname: "/services/[slug]", params: { slug: service.slug } }} aria-label="View Service Details">
                                         {t("Services.cta")}
                                         <ArrowRightIcon className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
                                     </Link>

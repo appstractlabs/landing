@@ -37,10 +37,10 @@ export default function Footer() {
                             </div>
 
                             <div className="flex space-x-4">
-                                <a href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
-                                    <Image src="/github_dark.svg" alt="GitHub" className="size-7" width={1024} height={1024}/>
+                                <a href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Visit our GitHub">
+                                    <Image src="/github_dark.svg" alt="GitHub Logo" className="size-7" width={1024} height={1024}/>
                                 </a>
-                                <a href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0">
+                                <a href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Send email to info@appstractlabs.com">
                                     <Mail className="size-7" />
                                 </a>
                             </div>
@@ -59,6 +59,7 @@ export default function Footer() {
 
                                                     <a
                                                         href={link.href}
+                                                        aria-label="Visit our social media"
                                                         className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
                                                     >
                                                         {link.name}
@@ -66,6 +67,7 @@ export default function Footer() {
                                                 ) : (
                                                     <Link
                                                         href={{ pathname: "/services/[slug]", params: { slug: link.href} }}
+                                                        aria-label={`View ${link.name} Service`}
                                                         className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
                                                     >
                                                         {link.name}

@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
                 </div>
                 <DialogFooter>
                     <DialogClose asChild>
-                        <Button variant="outline" className="bg-primary text-white hover:cursor-pointer hover:bg-primary/95">Close</Button>
+                        <Button variant="outline" className="bg-primary/80 text-white hover:cursor-pointer hover:bg-primary/95">Close</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { BoltIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import FeatureIcons from "@/components/molecules/FeatureIcons";
 
@@ -24,12 +25,10 @@ export default function Hero() {
                     </h2>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                        <Button size="lg" className="bg-primary/80 hover:bg-primary/90 text-primary-foreground font-bold hover:cursor-pointer">
-                            <a href="#contact" aria-label="Go to Contact Section" className="flex items-center">
-                                { t("cta") }
-                                <ArrowRightIcon className="ml-2 size-5" />
-                            </a>
-                        </Button>
+                        <Link href={{ pathname: "/", hash: "contact" }} aria-label="Go to Contact Section" className="flex items-center bg-primary/80 hover:bg-primary/90 text-primary-foreground font-bold px-5 py-3 rounded-lg text-sm">
+                            { t("cta") }
+                            <ArrowRightIcon className="ml-2 size-5" />
+                        </Link>
                     </div>
                     <FeatureIcons />
                 </div>

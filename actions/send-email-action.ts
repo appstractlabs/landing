@@ -30,10 +30,15 @@ export async function sendEmailAction(prevState: prevStateType, formData: FormDa
 
     const url = `${process.env.API_URL}/api/send-email`;
 
+    if (!process.env.INTERNAL_API_SECRET) {
+        throw new Error("INTERNAL_API_SECRET environment variable is not set.");
+    }
+
     const req = await fetch(url, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
+            "x-internal-api-secret": process.env.INTERNAL_API_SECRET
         },
         body: JSON.stringify(emailFormData),
     });

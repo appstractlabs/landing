@@ -37,10 +37,10 @@ export default function Footer() {
                             </div>
 
                             <div className="flex space-x-4">
-                                <a href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Visit our GitHub">
+                                <a href={"https://github.com/appstractlabs"} target="_blank" className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Visit our GitHub" rel="noopener noreferrer">
                                     <Image src="/github_dark.svg" alt="GitHub Logo" className="size-7" width={1024} height={1024}/>
                                 </a>
-                                <a href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Send email to info@appstractlabs.com">
+                                <a href={"mailto:info@appstractlabs.com"} className="hover:cursor-pointer bg-transparent hover:bg-transparent p-0" aria-label="Send email to info@appstractlabs.com" rel="noopener noreferrer">
                                     <Mail className="size-7" />
                                 </a>
                             </div>

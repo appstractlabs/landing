@@ -30,23 +30,21 @@ export default function Navbar() {
                     <nav className="hidden md:block">
                         <div className="flex items-baseline space-x-4">
                             {navItems.map((item) => (
-                                <a
+                                <Link
                                     key={item.name}
-                                    href={item.href}
+                                    href={{ pathname: "/", hash: item.href }}
                                     aria-label={`View ${item.name} Page`}
                                     className="text-foreground hover:text-primary transition-colors duration-200 px-3 py-2 text-sm font-medium whitespace-nowrap"
                                 >
                                     {item.name}
-                                </a>
+                                </Link>
                             ))}
                         </div>
                     </nav>
 
                     <div className="hidden md:flex items-center space-x-4">
                         <LanguageSwitcher />
-                        <Button className="bg-primary/80 hover:bg-primary/90 text-primary-foreground hover:cursor-pointer px-7">
-                            <a href="#contact" aria-label="Go to Contact Section">{ t("Navbar.cta") }</a>
-                        </Button>
+                        <Link href={{ pathname: "/", hash: "contact" }} aria-label="Go to Contact Section" className="bg-primary/80 hover:bg-primary/90 text-primary-foreground hover:cursor-pointer px-7 py-2 text-sm rounded-lg font-bold">{ t("Navbar.cta") }</Link>
                     </div>
 
                     {/* Mobile menu button */}
@@ -62,15 +60,15 @@ export default function Navbar() {
                     <div className="md:hidden">
                         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-card rounded-lg mt-2">
                             {navItems.map((item) => (
-                                <a
+                                <Link
                                     key={item.name}
-                                    href={item.href}
+                                    href={{ pathname: "/", hash: item.href }}
                                     aria-label={`View ${item.name} Page`}
                                     className="text-card-foreground hover:text-primary block px-3 py-2 text-base font-medium transition-colors duration-200"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     {item.name}
-                                </a>
+                                </Link>
                             ))}
                             <div className="flex items-center justify-between pt-2 border-t border-border">
                                 <LanguageSwitcher />

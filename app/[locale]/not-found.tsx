@@ -58,6 +58,7 @@ export default function NotFound() {
                             href="mailto:info@appstractlabs.com"
                             aria-label="Send email to info@appstractlabs.com"
                             className="text-muted-foreground hover:text-foreground transition-colors block"
+                            rel="noopener noreferrer"
                         >
                             info@appstractlabs.com
                         </a>

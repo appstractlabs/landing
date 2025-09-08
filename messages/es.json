@@ -150,18 +150,18 @@
     "team": {
       "heading": "Conoce a nuestro equipo",
       "subheading": "Nuestro equipo diverso reúne experiencia de diferentes áreas para ofrecer soluciones integrales.",
-      "members": {
-        "developer": {
-          "role": "Ingeniero de software",
-          "bio": "Más de 5 años en desarrollo full-stack. Experto en construir aplicaciones web escalables con tecnologías modernas."
+      "areas": {
+        "software_development": {
+          "role": "Equipo de Desarrollo de Software",
+          "bio": "Creamos aplicaciones web, MVPs y plataformas empresariales escalables y modernas."
         },
-        "designer": {
-          "role": "Diseñador UI/UX",
-          "bio": "Apasionado por crear interfaces intuitivas y experiencias de usuario atractivas."
+        "ux_ui_design": {
+          "role": "Equipo de Diseño UX/UI",
+          "bio": "Diseñamos experiencias intuitivas y atractivas para tus aplicaciones y plataformas."
         },
-        "support": {
-          "role": "Soporte",
-          "bio": "Dedicado a garantizar la satisfacción del cliente y a brindar soporte ágil en cada proyecto."
+        "support_service": {
+          "role": "Equipo de Soporte",
+          "bio": "Te acompañamos y resolvemos dudas durante todo el proyecto."
         }
       }
     }

@@ -63,7 +63,7 @@ export default function ContactForm() {
                             className="bg-background border-border resize-none"
                         />
                     </div>
-                    <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer">
+                    <Button type="submit" className="w-full bg-primary/80 hover:bg-primary/90 text-primary-foreground hover:cursor-pointer">
                         { pending && <Spinner loading={true} size={8} color="white" /> }
                         { t("formInfo.submit_button") }
                         <PaperAirplaneIcon className="ml-2 size-4" />

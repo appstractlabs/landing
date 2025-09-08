@@ -25,13 +25,12 @@ export default function Team() {
                         <CardContent className="p-6">
                             <Image
                                 src={member.image || "/placeholder.png"}
-                                alt={member.name}
+                                alt={member.role}
                                 className="size-24 rounded-full mx-auto mb-4 object-cover"
                                 width={200}
                                 height={200}
                             />
-                            <h4 className="text-lg font-medium text-card-foreground mb-1 font-poppins">{member.name}</h4>
-                            <p className="text-primary text-sm font-medium mb-3">{member.role}</p>
+                            <h4 className="text-card-foreground text-lg font-medium mb-1 font-poppins">{member.role}</h4>
                             <p className="text-muted-foreground text-sm max-w-xs">{member.bio}</p>
                         </CardContent>
                     </Card>

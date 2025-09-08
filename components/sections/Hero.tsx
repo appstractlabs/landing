@@ -19,13 +19,13 @@ export default function Hero() {
                         { t("heading") } <span className="bg-gradient-to-r from-primary to-violet-400 bg-clip-text text-transparent">{ t("heading_highlighted") }</span>
                     </h1>
 
-                    <p className="sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
+                    <h2 className="sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto text-pretty">
                         { t("subheading") }
-                    </p>
+                    </h2>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                        <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold hover:cursor-pointer">
-                            <a href="#contact" className="flex items-center">
+                        <Button size="lg" className="bg-primary/80 hover:bg-primary/90 text-primary-foreground font-bold hover:cursor-pointer">
+                            <a href="#contact" aria-label="Go to Contact Section" className="flex items-center">
                                 { t("cta") }
                                 <ArrowRightIcon className="ml-2 size-5" />
                             </a>

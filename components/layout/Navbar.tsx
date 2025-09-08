@@ -18,9 +18,9 @@ export default function Navbar() {
         <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 border-b border-border backdrop-blur-sm">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
-                    <Link href={"/"} className="flex items-center space-x-2">
-                        <div className="hidden size-8 rounded-lg sm:flex items-center justify-center">
-                            <Image src="https://res.cloudinary.com/dmy3s8j5w/image/upload/v1757141556/appstract-icon-white-transparent-48x48_qkchcv.svg" alt="Appstract Labs" width={48} height={48}/>
+                    <Link href={"/"} aria-label="Appstract Labs Home" className="flex items-center space-x-2">
+                        <div className="hidden size-8 rounded-lg sm:flex md:hidden lg:flex items-center justify-center">
+                            <Image src="https://res.cloudinary.com/dmy3s8j5w/image/upload/v1757141556/appstract-icon-white-transparent-48x48_qkchcv.svg" alt="Appstract Labs Logo" width={48} height={48}/>
                         </div>
                                 
                         <h3 className="text-3xl font-bold text-foreground whitespace-nowrap">{ t("Navbar.heading") } <span className="text-primary">{ t("Navbar.heading_highlighted") }</span></h3>
@@ -33,6 +33,7 @@ export default function Navbar() {
                                 <a
                                     key={item.name}
                                     href={item.href}
+                                    aria-label={`View ${item.name} Page`}
                                     className="text-foreground hover:text-primary transition-colors duration-200 px-3 py-2 text-sm font-medium whitespace-nowrap"
                                 >
                                     {item.name}
@@ -43,8 +44,8 @@ export default function Navbar() {
 
                     <div className="hidden md:flex items-center space-x-4">
                         <LanguageSwitcher />
-                        <Button className="bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer">
-                            <a href="#contact">{ t("Navbar.cta") }</a>
+                        <Button className="bg-primary/80 hover:bg-primary/90 text-primary-foreground hover:cursor-pointer px-7">
+                            <a href="#contact" aria-label="Go to Contact Section">{ t("Navbar.cta") }</a>
                         </Button>
                     </div>
 
@@ -64,6 +65,7 @@ export default function Navbar() {
                                 <a
                                     key={item.name}
                                     href={item.href}
+                                    aria-label={`View ${item.name} Page`}
                                     className="text-card-foreground hover:text-primary block px-3 py-2 text-base font-medium transition-colors duration-200"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
@@ -72,7 +74,7 @@ export default function Navbar() {
                             ))}
                             <div className="flex items-center justify-between pt-2 border-t border-border">
                                 <LanguageSwitcher />
-                                <Link href={{ pathname: "/", hash: "contact" }} className="bg-primary hover:bg-primary/90 text-primary-foreground hover:cursor-pointer py-2 px-5 rounded-lg whitespace-nowrap text-sm">{ t("Navbar.cta") }</Link>
+                                <Link href={{ pathname: "/", hash: "contact" }} aria-label="Go to Contact Section" className="bg-primary/80 hover:bg-primary/90 text-primary-foreground hover:cursor-pointer py-2 px-5 rounded-lg whitespace-nowrap text-sm">{ t("Navbar.cta") }</Link>
                             </div>
                         </div>
                     </div>

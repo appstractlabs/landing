@@ -71,7 +71,7 @@ export default function Cookies() {
                 </div>
                 <DialogFooter>
                     <DialogClose asChild>
-                        <Button variant="outline" className="bg-primary text-white hover:cursor-pointer hover:bg-primary/95">{ t("close") }</Button>
+                        <Button variant="outline" className="bg-primary/80 text-white hover:cursor-pointer hover:bg-primary/95">{ t("close") }</Button>
                     </DialogClose>
                 </DialogFooter>
             </DialogContent>

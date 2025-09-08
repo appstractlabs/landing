@@ -46,7 +46,7 @@ export default function MvpDevelopmentPage() {
                                 </Badge>
                             ))}
                         </div>
-                        <Link href={{ pathname: "/", hash: "contact" }} className="bg-green-600 hover:bg-green-600/90 hover:cursor-pointer py-3 font-semibold px-5 rounded-lg transition-colors duration-300 ease-in-out block mt-5 md:w-fit mx-auto text-sm">
+                        <Link href={{ pathname: "/", hash: "contact" }} aria-label="Go to Contact Section" className="bg-green-600 hover:bg-green-600/90 hover:cursor-pointer py-3 font-semibold px-5 rounded-lg transition-colors duration-300 ease-in-out block mt-5 md:w-fit mx-auto text-sm">
                             { t("Service_MVP.hero.cta") }
                         </Link>
                     </div>
@@ -119,7 +119,7 @@ export default function MvpDevelopmentPage() {
                                 </CardDescription>
                             </CardHeader>
                             <CardContent>
-                                <Link href={{ pathname: "/", hash: "contact" }} className="block w-full bg-green-600 hover:bg-green-600/90 hover:cursor-pointer text-md text-center py-2 rounded-md font-semibold transition-colors duration-300 ease-in-out">{ t("Service_BusinessWeb.benefits.card.cta") }</Link>
+                                <Link href={{ pathname: "/", hash: "contact" }} aria-label="Go to Contact Section" className="block w-full bg-green-600 hover:bg-green-600/90 hover:cursor-pointer text-md text-center py-2 rounded-md font-semibold transition-colors duration-300 ease-in-out">{ t("Service_BusinessWeb.benefits.card.cta") }</Link>
                             </CardContent>
                         </Card>
                     </div>
